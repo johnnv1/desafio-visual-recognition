@@ -12,7 +12,7 @@ const handleRequest = (req, res) => {
 
     form.on('file', (field, file) => {
       const time = new Date().getTime();
-      const extension = file.name.split('.')[1];
+      const extension =  /[^.]+$/.exec(file.name)[0];
       fileName = `${time}.${extension}`;
       fs.rename(file.path, path.join(form.uploadDir, fileName), (err) => {
         if (err) {
