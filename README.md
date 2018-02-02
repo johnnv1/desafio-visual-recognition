@@ -109,7 +109,7 @@ cf login
 ```sh
     npm run build && cf push
 ```
-28. Veja que legal, você consiguiu terminar o desafio, agora acesse a página do [bluegame][page-link] no facebook e diga para o bot: `desafio visual recognition finalizado`.
+28. Veja que legal, você consiguiu terminar o desafio, agora acesse a página do [bluegame][page-link] no facebook e diga para o bot: `acabei`.
 
 [sign_up]: https://console.ng.bluemix.net/registration/
 [page-link]: https://www.facebook.com/ibmbluegame/
